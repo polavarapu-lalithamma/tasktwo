@@ -1,0 +1,49 @@
+{
+"profile":{
+	"img":"profile.png",
+	"name":"Lalitha",
+    "roll":"17H71A0521",
+    "des":"student",
+	"place":"Vijayawada"
+	
+},
+"career":{
+	"info":"To associate with an organization that promises a creative carrier in a progressive environment where I can enhance my knowledge and skills in the state of new technologies and be a part of a team that excels in work towards the growth of organization"
+},
+"education":[
+	{
+		"sno":"1",
+       "degree":"B.tech",
+       "institute":"Mic College",
+       "per":"71.8",
+       "yop":"2021"
+
+	},
+	{ "sno":"2",
+       "degree":"Intermediate",
+       "institute":"sri chaitanya Educational Institutions",
+       "per":"96.3",
+       "yop":"2017"
+
+	},
+	{   "sno":"3",
+       "degree":"s.s.c",
+       "institute":"Sri Chaitanya High School",
+       "per":"8.8",
+       "yop":"2015"
+
+	}
+],
+ 
+ "languages":[
+ 	{
+        "lang":"English"
+ 	},
+ 	{
+        "lang":"Telugu"
+ 	},
+ 	{
+        "lang":"Hindi"
+ 	}
+ ]
+}

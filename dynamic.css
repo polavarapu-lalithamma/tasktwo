@@ -1,0 +1,134 @@
+/*desktop view*/
+
+body{
+	background:aqua;
+}
+.main{
+	background:pink;
+	display:flex;
+	justify-content: space-around;
+	margin:5%;
+}
+.left{
+	background: bisque;
+	margin:5%;
+	border-radius: 4%;
+	box-shadow: 4px 4px 4px 4px;
+	width:25%;
+	text-align: center;
+	height:45%;
+}
+.right{
+	background:bisque;
+	margin:5%;
+	border-radius: 4%;
+	box-shadow: 4px 4px 4px 4px;
+	width:60%;
+	padding:2%;
+}
+img{
+	border-radius: 4%;
+	margin:4%;
+	width:50%;
+	height:30%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+/*mobile view*/
+
+@media screen and (min-width: 320px) and (max-width:480px) {
+body{
+	background:pink;
+}
+.main{
+	background:bisque;
+	display:inline-block;
+	justify-content: space-around;
+	margin:2%;
+}
+.left{
+	background: aqua;
+	margin:2%;
+	border-radius: 4%;
+	box-shadow: 4px 4px 4px 4px;
+	width:94%;
+	text-align: center;
+	height:45%;
+}
+.right{
+	background:bisque;
+	margin:2%;
+	border-radius: 4%;
+	box-shadow: 4px 4px 4px 4px;
+	width:94%;
+	padding:1%;
+	word-wrap: break-word;
+}
+img{
+	border-radius: 4%;
+	margin:4%;
+	width:50%;
+	height:30%;
+}
+table{
+    margin-left:auto; 
+    margin-right:auto;
+  }
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+}
+
+/* tab view */
+
+@media screen and (min-width: 481px) and (max-width: 780px) {
+body{
+	background:pink;
+}
+.main{
+	background:#FFA07A;
+	display:inline-block;
+	justify-content: space-around;
+	margin:2%;
+}
+  table{
+    margin-left:auto; 
+    margin-right:auto;
+  }
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+.left{
+	background: aqua;
+	margin:2%;
+	border-radius: 4%;
+	box-shadow: 4px 4px 4px 4px;
+	width:94%;
+	text-align: center;
+	height:45%;
+}
+.right{
+	background:bisque;
+	margin:2%;
+	border-radius: 4%;
+	box-shadow: 4px 4px 4px 4px;
+	width:94%;
+	padding:4%;
+	word-wrap: break-word;
+}
+img{
+	border-radius: 4%;
+	margin:4%;
+	width:50%;
+	height:30%;
+}
+
+}
